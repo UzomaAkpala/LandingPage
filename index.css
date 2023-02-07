@@ -1,0 +1,233 @@
+.header {
+    background-color: rgb(54, 4, 162);
+    color: white;
+    height: 550px;
+    width: 100%;
+}
+.logo{
+    background-color: beige;
+    color:black;
+    width:350px;
+    border-radius: 0px 60px;
+    font-style: italic;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+.logo:hover {
+    background-color: black;
+    color: white;
+}
+
+
+.headerLinks {
+    height: 100px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    
+}
+li {
+    list-style-type: none;
+    
+}
+a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+a:hover{
+    color: rgb(22, 1, 126);
+}
+
+
+  .aTags {
+    display: flex;
+    background-color: rgb(248, 243, 86);
+    color: white;
+    height: 50px;
+    width: 600px;
+    justify-content: space-around;
+    align-items: center;
+    font-weight: bold;
+    font-size: 20px;
+    border-radius: 60px 0px; 
+    padding: 7px; 
+  }
+  .aTags:hover {
+    background-color: rgb(81, 251, 8);
+  }
+  .carPictures {
+    height: 330px;
+    width: 600px;
+    margin-left: 800px;
+    margin-top: -280px;
+    padding: 20px;
+    background-color: rgb(0, 12, 8);
+    border-radius: 20px;
+    
+  }
+  img {
+    height: 165px;
+    width: 298px;
+    }
+    .carPictures:hover{
+        background-color: rgb(235, 240, 240);
+    }
+
+    .p1,.p2,.p3,.p4 {
+        border-width: 0px;
+        border-radius: 10px;
+    }
+
+    .carCheck {
+        background-color: black;
+        color: white;
+        width: 40%;
+        height: 100px;
+        font-size: bold;
+        font-size: 38px;
+        margin-top: 50px;
+        margin-bottom: -80px;
+        margin-left: 80px;
+        font-style: italic;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius:  60px 60px 0px 0px;
+    }
+
+    .carCheck:hover {
+        background-color: rgb(248, 124, 201);
+        color: black;
+    }
+    .pHeading {
+        background-color: aqua;
+        width: 43%;
+        color: black;
+        height: 100px;
+        font-size: 18px;
+        font-weight: bold;
+        font-style: oblique;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-left: 60px;
+        margin-top: 80px;
+        text-indent: 20px;
+        border-radius:  0px 0px 60px 60px;
+    }
+    button {
+        background-color: yellow;
+        color: black;
+        height: 30px;
+        width: 150px;
+        font-weight: bold;
+        font-size: 20px;
+        border-radius: 10px;
+        margin-left: 70px;
+        margin-top: 20px;
+    }
+    button:hover{
+        background-color: black;
+        color: white;
+        border-radius: 2px;
+    }
+
+    .middle{
+        background-color: rgb(64, 1, 49);
+        color: white;
+        height: 700px;
+        margin-top: -22px;
+    }
+    .h1Car {
+        background-color: rgba(4, 255, 234, 0.979);
+        color: rgb(1, 1, 1);
+        width: 500px;
+        height: 100px;
+        margin-left: 500px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .h1Car:hover {
+        background-color: rgb(15, 3, 126);
+        color: white;
+        border-radius: 0px 60px;
+
+    }
+
+    .repairs {
+        display: flex;
+        justify-content: space-around;
+    }
+    
+    .repairImage {
+        border-radius: 15px;
+        height: 200px;
+
+    }
+    .pDiv{
+        display: flex;
+        justify-content: space-around;
+        display: flex;
+        justify-content: space-around;
+        font-size: 20px;
+        margin-top: 30px;
+        color: white;
+        margin-left: 60px;
+    }
+    .pDiv1 {
+        margin-left: -40px;
+    }
+    .pDiv2 {
+        margin-left: 40px;
+    }
+
+
+.aDiv1{
+    margin-top: 100px;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+.aDiv {
+    color: rgb(91, 254, 3);
+    margin-left: -60px;
+    margin-top: -100px;
+    background-color: black;
+    width: 150px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+}
+.aDiv:hover {
+    color: aqua;
+    background-color: brown;
+}
+
+.review {
+    background-color: aliceblue;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    font-size: 30px;
+    width: 100%;
+    height: 500px;
+}
+
+.myName {
+    color: blue;
+    margin-top: 300px;
+    margin-left: -200px;
+}
+.myName:hover {
+    background-color: black;
+    color: rgb(111, 255, 0);
+}
